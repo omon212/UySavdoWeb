@@ -393,13 +393,14 @@ footer {
 }
 
 .language-select {
-margin-left: 8px; /* Select elementni flagdan ajratish uchun */
+    margin-left: 8px; 
 }
 
 .flag-icon {
     width: 24px; /* Bayroqning kengligi */
     height: auto; /* Nisbatni saqlab qolish uchun avtomatik balandlik */
     vertical-align: middle; /* Select elementi bilan mos kelishi uchun */
+    object-fit: cover; /* Rasmlarni proporsiyali ko'rsatish uchun */
 }
 
 option {
@@ -631,6 +632,9 @@ option {
         margin-top: 35px;
         justify-content: space-around;
         margin-bottom: 20px;
+    }
+    .language-select {
+        margin-left: 5px; 
     }
 }
 
