@@ -390,24 +390,16 @@ footer {
 .language-select-wrapper {
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .language-select {
-    width: 76px;
-    color: #fff;
-    font-size: 20px;
-    background-color: transparent;
-    text-align: center;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-    transition: ease 300ms;
+margin-left: 8px; /* Select elementni flagdan ajratish uchun */
 }
 
 .flag-icon {
-    width: 30px;
-    height: auto;
+    width: 24px; /* Bayroqning kengligi */
+    height: auto; /* Nisbatni saqlab qolish uchun avtomatik balandlik */
+    vertical-align: middle; /* Select elementi bilan mos kelishi uchun */
 }
 
 option {
